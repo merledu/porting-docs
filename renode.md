@@ -104,7 +104,7 @@ litex_riscv is the board you can build your application in any zephyr supported 
  (monitor) $zephyr?=@/path/to/zephyrproject/zephyr/samples/modules/tflite-micro/build/zephyr/zephyr.elf                ( give path of your  applicaton zephyr binary)
 (monitor) start @scripts/single-node/litex_vexriscv_zephyr.resc  
 ```
-then the uart will open and show the output of the application.
+then the UART will open and show the output of the application.
 
 And Hurrah! Your TF-Lite Application is running on Litex Vexx RISC-V SoC under emulation env on RENODE
 
