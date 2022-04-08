@@ -99,7 +99,7 @@ west build -b {board}
  for example :
  west build -b litex_vexriscv
  this command will generate the binary of the application
-litex_riscv is the voard you can build your application in any zephyr supported board
+litex_riscv is the board you can build your application in any zephyr supported board
  open renode then enter this command in renode monitor
  (monitor) $zephyr?=@/path/to/zephyrproject/zephyr/samples/modules/tflite-micro/build/zephyr/zephyr.elf                ( give path of your  applicaton zephyr binary)
 (monitor) start @scripts/single-node/litex_vexriscv_zephyr.resc  
